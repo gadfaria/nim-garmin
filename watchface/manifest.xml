@@ -4,6 +4,8 @@
         <iq:products>
             <iq:product id="fr255"/>
             <iq:product id="fr255s"/>
+            <iq:product id="fr265"/>
+            <iq:product id="fr265s"/>
             <iq:product id="venu3"/>
             <iq:product id="venu3s"/>
             <iq:product id="fenix847mm"/>
