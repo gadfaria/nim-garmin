@@ -1,0 +1,16 @@
+<settings>
+    <setting propertyKey="@Properties.ShowBattery" title="@Strings.ShowBatteryTitle">
+        <settingConfig type="boolean"/>
+    </setting>
+    <setting propertyKey="@Properties.BatteryThreshold" title="@Strings.BatteryThresholdTitle">
+        <settingConfig type="numeric" min="5" max="50"/>
+    </setting>
+    <setting propertyKey="@Properties.DateFormat" title="@Strings.DateFormatTitle">
+        <settingConfig type="list">
+            <listEntry value="0">@Strings.DateFormat0</listEntry>
+            <listEntry value="1">@Strings.DateFormat1</listEntry>
+            <listEntry value="2">@Strings.DateFormat2</listEntry>
+            <listEntry value="3">@Strings.DateFormat3</listEntry>
+        </settingConfig>
+    </setting>
+</settings>

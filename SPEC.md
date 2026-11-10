@@ -5,7 +5,7 @@ A family of Connect IQ (Garmin) apps with the visual identity of Nim, a minimali
 ## Visual identity (applies to every app)
 
 - Text only. No icons, graphics, or decoration.
-- Text is left-aligned, inset from the left edge of the round screen.
+- Text is centered horizontally.
 - Hierarchy comes only from size and shade of gray:
   - primary: #F1EFE8, large font
   - secondary: #B4B2A9, small font
@@ -17,7 +17,7 @@ A family of Connect IQ (Garmin) apps with the visual identity of Nim, a minimali
 
 ## Phase 1: watch face (start here)
 
-Three-line layout, vertically centered and left-aligned:
+Three-line layout, centered horizontally and vertically:
 
 1. Time, prominent: `18:34`. Large font, primary color. Follows the 12h/24h setting.
 2. Date: `mon, 9 nov` (pt-BR: `seg, 9 nov`). Small font, secondary color. Abbreviated weekday, day, and abbreviated month, lowercase, in the watch's language (pt-BR and en).
@@ -53,5 +53,5 @@ The Android launcher sends a short note to the watch through the Connect IQ Mobi
 
 ## Conventions
 
-- One Connect IQ project per app, in a single repository (`watchface/`, `datafield/`, `glance/`, `listapp/`), with a shared style module (colors, inset, and fonts) to keep the identity consistent across them.
+- One Connect IQ project per app, in a single repository (`watchface/`, `datafield/`, `glance/`, `listapp/`), with a shared style module (colors, fonts, and layout) to keep the identity consistent across them.
 - Test in the simulator on at least one small MIP screen (for example, the Instinct family or the Forerunner 255) and one large AMOLED screen (for example, the Fenix 8 or the Venu 3).

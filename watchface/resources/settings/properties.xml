@@ -1,0 +1,5 @@
+<properties>
+    <property id="ShowBattery" type="boolean">true</property>
+    <property id="BatteryThreshold" type="number">20</property>
+    <property id="DateFormat" type="number">0</property>
+</properties>

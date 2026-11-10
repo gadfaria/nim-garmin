@@ -1,0 +1,32 @@
+<strings>
+    <string id="AppName">Nim</string>
+
+    <string id="Weekday1">dom</string>
+    <string id="Weekday2">seg</string>
+    <string id="Weekday3">ter</string>
+    <string id="Weekday4">qua</string>
+    <string id="Weekday5">qui</string>
+    <string id="Weekday6">sex</string>
+    <string id="Weekday7">sáb</string>
+
+    <string id="Month1">jan</string>
+    <string id="Month2">fev</string>
+    <string id="Month3">mar</string>
+    <string id="Month4">abr</string>
+    <string id="Month5">mai</string>
+    <string id="Month6">jun</string>
+    <string id="Month7">jul</string>
+    <string id="Month8">ago</string>
+    <string id="Month9">set</string>
+    <string id="Month10">out</string>
+    <string id="Month11">nov</string>
+    <string id="Month12">dez</string>
+
+    <string id="ShowBatteryTitle">Mostrar bateria</string>
+    <string id="BatteryThresholdTitle">Limite de bateria baixa (%)</string>
+    <string id="DateFormatTitle">Formato da data</string>
+    <string id="DateFormat0">seg, 9 nov</string>
+    <string id="DateFormat1">seg 9 nov</string>
+    <string id="DateFormat2">9 nov</string>
+    <string id="DateFormat3">seg 9</string>
+</strings>

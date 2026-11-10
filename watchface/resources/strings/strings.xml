@@ -1,0 +1,32 @@
+<strings>
+    <string id="AppName">Nim</string>
+
+    <string id="Weekday1">sun</string>
+    <string id="Weekday2">mon</string>
+    <string id="Weekday3">tue</string>
+    <string id="Weekday4">wed</string>
+    <string id="Weekday5">thu</string>
+    <string id="Weekday6">fri</string>
+    <string id="Weekday7">sat</string>
+
+    <string id="Month1">jan</string>
+    <string id="Month2">feb</string>
+    <string id="Month3">mar</string>
+    <string id="Month4">apr</string>
+    <string id="Month5">may</string>
+    <string id="Month6">jun</string>
+    <string id="Month7">jul</string>
+    <string id="Month8">aug</string>
+    <string id="Month9">sep</string>
+    <string id="Month10">oct</string>
+    <string id="Month11">nov</string>
+    <string id="Month12">dec</string>
+
+    <string id="ShowBatteryTitle">Show battery</string>
+    <string id="BatteryThresholdTitle">Low battery threshold (%)</string>
+    <string id="DateFormatTitle">Date format</string>
+    <string id="DateFormat0">mon, 9 nov</string>
+    <string id="DateFormat1">mon 9 nov</string>
+    <string id="DateFormat2">9 nov</string>
+    <string id="DateFormat3">mon 9</string>
+</strings>
