@@ -1,0 +1,5 @@
+project.manifest = manifest.xml
+
+# Shared Nim style module and resources live outside this project.
+base.sourcePath = source;../shared/source
+base.resourcePath = resources;../shared/resources
