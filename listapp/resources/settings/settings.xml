@@ -1,5 +1,0 @@
-<settings>
-    <setting propertyKey="@Properties.ChecklistItems" title="@Strings.ChecklistItemsTitle">
-        <settingConfig type="alphaNumeric"/>
-    </setting>
-</settings>

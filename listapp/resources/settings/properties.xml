@@ -1,4 +1,0 @@
-<properties>
-    <!-- Empty means the language's default checklist. -->
-    <property id="ChecklistItems" type="string"></property>
-</properties>

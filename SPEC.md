@@ -49,11 +49,13 @@ A dimmed title line (`next`, pt-BR: `próximo`) and a main line (`19:00 meeting`
 
 A device app with a text menu. The focused item is large and in the primary color; neighboring items shrink and darken with distance. Initial items: fixed timers (1, 5, and 25 min) and a checklist. Launching other apps isn't possible (Connect IQ limitation).
 
+> **Removed (2026-11-11).** Built twice and dropped: first with timers and a checklist (not useful day to day), then as an info list (weather, steps, body, watch status), which also didn't stick. Notes for a future attempt: other Connect IQ apps can be opened with `System.exitTo` (after a confirmation), Garmin's built-in apps can't, and a watch app on API 5 can't read the calendar complication. The timers and checklist version is in git history (`e4c8e71`); the info list was never committed.
+
 ## Phase 5: integration with Nim on the phone
 
 The Android launcher sends a short note to the watch through the Connect IQ Mobile SDK. The watch shows `from phone` (dimmed; pt-BR: `do celular`), the note in prominent text, and a single `done` button (pt-BR: `feito`) that sends a confirmation back to the phone.
 
 ## Conventions
 
-- One Connect IQ project per app, in a single repository (`watchface/`, `datafield/`, `glance/`, `listapp/`), with a shared style module (colors, fonts, and layout) to keep the identity consistent across them.
+- One Connect IQ project per app, in a single repository (`watchface/`, `datafield/`), with a shared style module (colors, fonts, and layout) to keep the identity consistent across them.
 - Test in the simulator on at least one small MIP screen (for example, the Instinct family or the Forerunner 255) and one large AMOLED screen (for example, the Fenix 8 or the Venu 3).
