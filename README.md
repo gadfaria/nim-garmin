@@ -7,6 +7,7 @@ Connect IQ apps with the visual identity of the Nim launcher. See [SPEC.md](SPEC
 - `shared/source/NimStyle.mc`: colors, fonts and the centered stacked text layout, shared by every app
 - `watchface/`: phase 1 watch face
 - `datafield/`: phase 2 running data field (Nim Run)
+- `listapp/`: phase 4 list app with timers and checklist (Nim List)
 
 Each app pulls in the shared code and resources (launcher icon) from its `monkey.jungle`.
 

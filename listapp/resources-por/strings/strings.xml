@@ -1,0 +1,11 @@
+<strings>
+    <string id="AppName">Nim List</string>
+
+    <string id="Checklist">lista</string>
+    <string id="ClearAll">limpar tudo</string>
+    <string id="Paused">pausado</string>
+    <string id="Empty">vazia</string>
+    <string id="DefaultChecklist">água, chaves, carteira, celular</string>
+
+    <string id="ChecklistItemsTitle">Itens da lista (separados por vírgula)</string>
+</strings>

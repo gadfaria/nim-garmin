@@ -43,6 +43,8 @@ Units follow the watch settings.
 
 A dimmed title line (`next`, pt-BR: `próximo`) and a main line (`19:00 meeting`). Plain text, same style.
 
+> **Skipped for now (2026-11-11).** On API 5 watches a glance belongs to a watch app, and Connect IQ only allows the `ComplicationSubscriber` permission (needed to read the calendar) for watch faces and data fields. The calendar complication also gives only the event's time, not its title. Revisit with phase 5, when the phone can send the next event with its title.
+
 ## Phase 4: list app
 
 A device app with a text menu. The focused item is large and in the primary color; neighboring items shrink and darken with distance. Initial items: fixed timers (1, 5, and 25 min) and a checklist. Launching other apps isn't possible (Connect IQ limitation).
