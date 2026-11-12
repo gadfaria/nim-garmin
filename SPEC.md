@@ -55,7 +55,34 @@ A device app with a text menu. The focused item is large and in the primary colo
 
 The Android launcher sends a short note to the watch through the Connect IQ Mobile SDK. The watch shows `from phone` (dimmed; pt-BR: `do celular`), the note in prominent text, and a single `done` button (pt-BR: `feito`) that sends a confirmation back to the phone.
 
+## Phase 6: breathing app (Nim Breathe)
+
+A device app that guides a breathing session with text only.
+
+1. A text menu (same style as the phase 4 list) with the techniques: `box` (4-4-4-4), `4-7-8` and `coherent` (5-5). It opens on the technique used last.
+2. The session shows three lines: the current step (`inhale`, `hold`, `exhale`; pt-BR: `inspire`, `segure`, `expire`) in large text, the seconds left in the step, and the time left in the session.
+3. The step word brightens from dimmed to primary while inhaling and darkens while exhaling. A short buzz marks each step (one to inhale, two to exhale, a faint one to hold), so it works with eyes closed.
+4. The session lasts a whole number of cycles, as close as possible to the configured length. At the end: `done` (pt-BR: `pronto`), the heart rate at the start and at the end (`72 > 64`, when available) and the session length.
+
+START pauses and resumes; BACK leaves.
+
+Settings: session length (1, 3, 5 or 10 min, default 5) and vibrate on each step (default on).
+
+## Phase 7: pomodoro (Nim Focus)
+
+A device app that starts counting as soon as it opens. Three lines:
+
+1. Time left in the phase: `24:12`. Large, primary color. Secondary while paused, orange when the phase is over and waiting.
+2. Phase: `focus`, `break` or `long break` (pt-BR: `foco`, `intervalo`, `intervalo longo`). Small, secondary color.
+3. Current focus block: `2 / 4`, or `paused`. Small, tertiary color.
+
+START pauses and resumes; holding MENU opens a text menu with `skip` and `restart`. At the end of a phase the watch buzzes and, by default, the next phase starts by itself.
+
+The app only alerts while it is open (no background service). Leaving it saves the session with the wall clock: reopening within an hour picks the countdown up where it would be, and a phase that ended while away waits in orange for START.
+
+Settings: focus (default 25 min), break (5), long break (15), focus blocks before a long break (4), start the next phase automatically (on).
+
 ## Conventions
 
-- One Connect IQ project per app, in a single repository (`watchface/`, `datafield/`), with a shared style module (colors, fonts, and layout) to keep the identity consistent across them.
+- One Connect IQ project per app, in a single repository (`watchface/`, `datafield/`, `breathe/`, `focus/`), with a shared style module (colors, fonts, and layout) to keep the identity consistent across them. Building blocks only device apps need (phase sequencer, text list) live in `shared/app-source/`.
 - Test in the simulator on at least one small MIP screen (for example, the Instinct family or the Forerunner 255) and one large AMOLED screen (for example, the Fenix 8 or the Venu 3).

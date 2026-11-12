@@ -1,0 +1,20 @@
+<strings>
+    <string id="AppName">Nim Breathe</string>
+
+    <string id="Box">box</string>
+    <string id="FourSevenEight">4-7-8</string>
+    <string id="Coherent">coherent</string>
+
+    <string id="Inhale">inhale</string>
+    <string id="Hold">hold</string>
+    <string id="Exhale">exhale</string>
+    <string id="Paused">paused</string>
+    <string id="Done">done</string>
+
+    <string id="SessionMinutesTitle">Session length</string>
+    <string id="SessionMinutes1">1 min</string>
+    <string id="SessionMinutes3">3 min</string>
+    <string id="SessionMinutes5">5 min</string>
+    <string id="SessionMinutes10">10 min</string>
+    <string id="VibrateTitle">Vibrate on each phase</string>
+</strings>

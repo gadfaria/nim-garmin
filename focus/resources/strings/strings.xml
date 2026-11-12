@@ -1,0 +1,16 @@
+<strings>
+    <string id="AppName">Nim Focus</string>
+
+    <string id="Focus">focus</string>
+    <string id="Break">break</string>
+    <string id="LongBreak">long break</string>
+    <string id="Paused">paused</string>
+    <string id="Skip">skip</string>
+    <string id="Restart">restart</string>
+
+    <string id="FocusMinutesTitle">Focus (min)</string>
+    <string id="BreakMinutesTitle">Break (min)</string>
+    <string id="LongBreakMinutesTitle">Long break (min)</string>
+    <string id="CyclesTitle">Focus blocks before a long break</string>
+    <string id="AutoAdvanceTitle">Start the next phase automatically</string>
+</strings>

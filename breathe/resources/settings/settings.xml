@@ -1,0 +1,13 @@
+<settings>
+    <setting propertyKey="@Properties.SessionMinutes" title="@Strings.SessionMinutesTitle">
+        <settingConfig type="list">
+            <listEntry value="1">@Strings.SessionMinutes1</listEntry>
+            <listEntry value="3">@Strings.SessionMinutes3</listEntry>
+            <listEntry value="5">@Strings.SessionMinutes5</listEntry>
+            <listEntry value="10">@Strings.SessionMinutes10</listEntry>
+        </settingConfig>
+    </setting>
+    <setting propertyKey="@Properties.Vibrate" title="@Strings.VibrateTitle">
+        <settingConfig type="boolean"/>
+    </setting>
+</settings>

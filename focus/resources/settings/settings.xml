@@ -1,0 +1,17 @@
+<settings>
+    <setting propertyKey="@Properties.FocusMinutes" title="@Strings.FocusMinutesTitle">
+        <settingConfig type="numeric" min="1" max="90"/>
+    </setting>
+    <setting propertyKey="@Properties.BreakMinutes" title="@Strings.BreakMinutesTitle">
+        <settingConfig type="numeric" min="1" max="30"/>
+    </setting>
+    <setting propertyKey="@Properties.LongBreakMinutes" title="@Strings.LongBreakMinutesTitle">
+        <settingConfig type="numeric" min="1" max="60"/>
+    </setting>
+    <setting propertyKey="@Properties.Cycles" title="@Strings.CyclesTitle">
+        <settingConfig type="numeric" min="1" max="8"/>
+    </setting>
+    <setting propertyKey="@Properties.AutoAdvance" title="@Strings.AutoAdvanceTitle">
+        <settingConfig type="boolean"/>
+    </setting>
+</settings>

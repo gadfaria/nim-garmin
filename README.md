@@ -7,6 +7,9 @@ Connect IQ apps with the visual identity of the Nim launcher. See [SPEC.md](SPEC
 - `shared/source/NimStyle.mc`: colors, fonts and the centered stacked text layout, shared by every app
 - `watchface/`: phase 1 watch face
 - `datafield/`: phase 2 running data field (Nim Run)
+- `shared/app-source/`: phase sequencer (`NimPhases`) and text list (`NimListView`), used by the device apps
+- `breathe/`: phase 6 breathing app (Nim Breathe)
+- `focus/`: phase 7 pomodoro (Nim Focus)
 
 Each app pulls in the shared code and resources (launcher icon) from its `monkey.jungle`.
 
